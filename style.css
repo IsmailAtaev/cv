@@ -252,6 +252,17 @@ body {
     border-radius: 6px;
     font-size: 0.8rem;
     font-weight: 600;
+    white-space: nowrap;
+}
+
+.freelance-tag {
+    background: rgba(34, 211, 238, 0.15);
+    color: var(--accent-color);
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    margin-left: 8px;
 }
 
 .experience-list {
@@ -271,6 +282,25 @@ body {
     position: absolute;
     left: 0;
     color: var(--accent-color);
+}
+
+.experience-list ul {
+    list-style: none;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    padding-left: 10px;
+}
+
+.experience-list ul li {
+    font-size: 0.85rem;
+    margin-bottom: 6px;
+    padding-left: 15px;
+}
+
+.experience-list ul li::before {
+    content: "•";
+    font-size: 1.2rem;
+    top: -2px;
 }
 
 .project-grid {
